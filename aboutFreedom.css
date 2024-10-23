@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+   
+}
+.crnt{
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-left: 510px;
+   
+}
+.crnt h1{
+    margin: 0;
+    color: rgba(255, 136, 0, 0.2);
+    background-image:url("https://static.vecteezy.com/system/resources/previews/000/332/319/non_2x/vector-rainbow-diagonal-background.jpg");
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: freedom 15s linear infinite;
+    
+    font-weight: bold;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+@keyframes freedom{
+    0%{background-position: left 0 top 5px;}
+    100%{background-position: left 1000px top 5px;}
+}
+.border{
+    border: 3px solid transparent;
+}
+.border:hover{
+    border: 3px solid white;
+}
+.para{
+    font-size: 11px;
+    font-weight: bold;
+}
+.Home-icon{
+    color: aqua;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+.imge{
+    background-image: url("https://www.clearias.com/up/Indian-Freedom-Struggle-ClearIAS.png");
+    height: 500px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.head{
+    padding-top: 3px;
+    padding-left: 15px;
+}
+.head-sec{
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size:large ;
+}
+.box{
+    border: 2px solid black;
+    height: 490px;
+    width: 326px;
+    background-color:#F8F9FA;
+    margin-left: 15px;
+    font-size: 12px;
+    margin-top:75px;
+    padding:20px 0px 15px;
+    background-size: cover;
+}
+.fle{
+    display: flex;
+}
+.box-sec{
+    border: 2px solid black;
+    height: 450px;
+    width: 326px;
+    background-color:#F8F9FA;
+    margin-left: 15px;
+    font-size: 12px;
+    margin-top:75px;
+    padding:20px 0px 15px;
+    background-size: cover;
+}
+.dis{
+    display: flex;
+    justify-content: space-between;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.btn{
+    padding: 7px 19px;
+    width: 80px;
+    height: 30px;
+    color:black;
+    font-weight: 700;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin: 15px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+.btn::before{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ff0000,transparent);
+    transform: translateX(-100%);
+    transition: 0.6s;
+    position: absolute
+}
+.btn:hover{
+    background: rgb(206, 158, 55);
+    box-shadow: 0 0 25px 8px;
+}

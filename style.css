@@ -1,0 +1,307 @@
+/* Heading Baner*/
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+     height: 65px;
+     background-color: #181b1b;
+     color: white;
+     display: flex;
+     align-items: center;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 148px;
+}
+.logo{
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6r5RUm9R0HMT0yNQ3VCaT350JRvNxEKyvGg&s ");
+     height: 50px;
+     background-size: cover;
+     width: 100%;
+     margin-right: 90px;
+}
+.border{
+     border: 2px solid transparent;
+}
+.border:hover{
+     border: 2px solid white;
+}
+.para{
+     text-align: center;
+     font-size: 11px;
+     font-weight: bold;
+}
+ /* Home Icon*/
+.Home-icon{
+     text-align: center;
+     align-items: center;
+     margin-right: 10px;
+     margin-left: 10px;
+
+}
+ /* Search */
+.new-search{
+     display: flex;
+     margin-left: 100px;
+     height: 40px;
+     width: 600px;
+     border-radius: 5px;
+     justify-content: space-evenly;
+    
+     
+}
+.search-select{
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     text-align: center;
+     background-color: #f3f3f3;
+     width: 45px;
+     border: none;
+}
+.search-input{
+      width: 100%;
+      font-size: 0.9rem;
+      border: none;
+}
+.search-icon{
+     width: 45px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     font-size: 1.2rem;
+     color:#ffffff;
+}
+.new-search:hover{
+     border: 2px solid blue;
+}
+/*  Setting Icon  */
+.setting{
+     text-align: center;
+     margin-left: 400px;
+}
+ /* Slide Bar */
+.slider{
+     width: 100%;
+     height: 500px;
+}
+figure{
+     position: relative;
+     left: 0;
+     width: 300%;
+     animation: 20s slide infinite;
+}
+.slide{
+     position: relative;
+     width: 33.3%;
+     float: left;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+ 
+}
+.slide p{
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end; 
+     margin-bottom: 50px;
+     font-size: 30px;
+     width: 100%;
+     color: white;
+     text-shadow: 1px 1px 2px rgba(0, 0,0,0.5);
+}
+.slide img{
+     width: 100%;
+     height: 500px;
+
+}
+.slide h1{
+     font-family: poppins;
+     position: absolute;
+     font-size: 21px;
+     color: whitesmoke;
+     text-shadow: 1px 1px 2px rgba(0, 0,0,0.5);
+     padding-bottom: 20px;
+
+}
+.slide h2{
+     font-family: poppins;
+     position: absolute;
+     font-size: 21px;
+     color: rgb(0, 0, 0);
+     text-shadow: 1px 1px 2px rgba(0, 0,0,0.5);
+     padding-bottom: 20px;
+}
+.slide h3{
+     font-family: poppins;
+     position: absolute;
+     font-size: 21px;
+     color: rgb(3, 255, 217);
+     text-shadow: 1px 1px 2px rgba(0, 0,0,0.5);
+     padding-bottom: 20px;
+}
+@keyframes slide{
+     0%{
+          left: 0;
+        }
+        20%{
+          left: 0;
+        }
+        25%{
+          left: -100%;
+        }
+        45%{
+          left: -100%;
+        }
+        50%{
+          left: -200%;
+        }
+        70%{
+          left: -200%;
+        }
+        80%{
+          left: -200%;
+}
+}
+.backside{
+     background-image: url("https://wallpapers.com/images/high/glowing-vertical-lights-indian-flag-4k-vkflqogm4i333a2q.webp");
+     background-size: 100% 100%;
+     height: 50%;
+     background-repeat: no-repeat;    
+}
+.boxi{
+     background-color: white;
+     background-size: cover;
+
+}
+.box{
+     border: 2px solid black;
+     height: 380px;
+     width: 326px;
+     background-color: white;
+     margin-left: 20px;
+     font-size: 12px;
+     margin-top:15px;
+     padding:20px 0px 15px;
+}
+.box:hover{
+     background: #f8f9fa;
+     box-shadow: 0 0 25px 8px;
+}
+.box-img{
+     width: 140px;
+     height: 116px;
+}
+.head{
+     padding-top: 3px;
+     padding-left: 15px;
+}
+.para{
+     font-size: 14px;
+     padding-left: 15px;
+}
+.see{
+     padding-top: 15px;
+     padding-left: 20px;
+     color: blue;
+     text-decoration: none;
+}
+.box-img-sec{
+    height: 280px;
+    width: 280px;
+    background-size: cover;
+}
+.box-content{
+ margin-right: 13px;
+  margin-left: 13px;
+ margin-top: 15px;
+}
+.row-1{
+     display: flex ;  
+     justify-content: space-evenly;
+     justify-content: space-around;
+     justify-content: space-between;
+}
+.box-img-cover{
+     background-size: cover;
+     height: 280px;
+     width: 280px;
+}
+.but{
+     height: 30px;
+     width: 80px;
+     color: white;
+     background-color: blue;
+     border-radius: 4px;  
+}
+.border-sec{
+     border: 2px solid transparent;
+}
+.border-sec:hover{
+     border: 2px solid black;
+}
+.mid{
+     align-items: center;
+     text-align: center;
+     text-decoration: underline;
+}
+.mid h1{
+     margin: 0;
+     color: rgba(255, 136, 0, 0.2);
+     background-image:url("https://www.shutterstock.com/shutterstock/photos/2517545801/display_1500/stock-photo-yellow-and-green-vertical-striped-pattern-abstract-background-2517545801.jpg");
+     background-repeat: repeat-x;
+     -webkit-background-clip: text;
+     animation: freedom 15s linear infinite;
+     font-weight: bold;
+     font-family: poppins;
+     text-transform: uppercase;
+ }
+ @keyframes freedom{
+     0%{background-position: left 0 top 5px;}
+     100%{background-position: left 1000px top 5px;}
+ }
+.click{
+     display: flex;
+     justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      font-family: 'Raleway',
+      sans-serif;
+
+}
+.btn{
+     padding: 8px 20px;
+     width: 100px;
+     height: 35px;
+     color:black;
+     font-weight: 700;
+     border-radius: 0;
+     text-transform: uppercase;
+     margin: 25px;
+     overflow: hidden;
+     position: relative;
+}
+.btn::before{
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(360deg,transparent,#ffffff,transparent);
+     transform: translateX(-100%);
+     transition: 0.6s;
+     position: absolute
+}
+.btn:hover{
+     background: rgb(76, 76, 219);
+     box-shadow: 0 0 25px 8px;
+}
+.btn:active:after{
+     background: transparent;
+ }
+ .btn:active{
+     color: #ffffff;
+     font-weight: bold;
+ }
