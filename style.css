@@ -13,21 +13,26 @@
     
 }
 .nav-logo{
-    height: 50px;
-    width: 148px;
+     height: 50px;
+     width: 148px;
+    
+    
+    
 }
 .logo{
      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6r5RUm9R0HMT0yNQ3VCaT350JRvNxEKyvGg&s ");
      height: 50px;
      background-size: cover;
      width: 100%;
-     margin-right: 90px;
+
+     
 }
 .border{
      border: 2px solid transparent;
 }
 .border:hover{
      border: 2px solid white;
+     
 }
 .para{
      text-align: center;
@@ -36,6 +41,7 @@
 }
  /* Home Icon*/
 .Home-icon{
+     justify-content: space-between;
      text-align: center;
      align-items: center;
      margin-right: 10px;
@@ -45,11 +51,11 @@
  /* Search */
 .new-search{
      display: flex;
-     margin-left: 100px;
      height: 40px;
      width: 600px;
      border-radius: 5px;
-     justify-content: space-evenly;
+     margin-left: 250px;
+     
     
      
 }
@@ -80,7 +86,7 @@
 /*  Setting Icon  */
 .setting{
      text-align: center;
-     margin-left: 400px;
+     margin-left: 330px;
 }
  /* Slide Bar */
 .slider{
@@ -180,12 +186,12 @@ figure{
 .box{
      border: 2px solid black;
      height: 380px;
-     width: 326px;
+     width: 323px;
      background-color: white;
      margin-left: 20px;
      font-size: 12px;
      margin-top:15px;
-     padding:20px 0px 15px;
+     padding:20px 20px 20px;
 }
 .box:hover{
      background: #f8f9fa;
