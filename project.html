@@ -22,18 +22,18 @@
       <div class="new-search">
         <select class="search-select">
           <option>ALL</option>
-           <option>Freedom</option>
-           <option>Freedom Fighters</option>
+           <option>AboutFreedom</option>
+           <option>FreedomFighters</option>
            <option>Tourism</option>
            <option>Hinduism</option>
-           <option>Indian currency</option>
-           <option>Indian Culture</option>
-           <option>Indian Food</option>
-           <option>Festivals Of India/option>
+           <option>IndianCurrency</option>
+           <option>IndianCulture</option>
+           <option>IndianFood</option>
+           <option>FestivalsOfIndia</option>
            <option>Inventions</option>
         </select>
-          <input placeholder="Search" class="search-input">
-          <div class="search-icon">
+          <!-- <input placeholder="Search" class="search-input" id="search-inp"> -->
+          <div class="search-icon" id="search-ico">
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
       </div>
@@ -65,8 +65,8 @@
 </div>
   <div class="row-1">
     <div class="box border">
-      <h1 class="head">Freedom</h1>
-      <a href="aboutFreedom.html">
+      <h1 class="head">AboutFreedom</h1>
+      <a href="AboutFreedom.html">
       <div class="box-content">
         <div>
           <img src="freedomLogo2.jpeg " class="box-img-cover">
@@ -76,8 +76,8 @@
     </div>
   </a>
     <div class="box border">
-      <h1 class="head">Freedom Fighters</h1>
-      <a href="Freedom.html">
+      <h1 class="head">FreedomFighters</h1>
+      <a href="FreedomFighters.html">
       <div class="box-content">
       <div>
        <img src="freedomlogo.jpeg" class="box-img-cover">
@@ -88,7 +88,7 @@
   </a> 
     <div class="box border">
       <h1 class="head">Tourism</h1>
-      <a href="tourism.html">
+      <a href="Tourism.html">
       <div class="box-content">
         <div>
           <img src="Tourisminindialogo.jpeg" class="box-img-cover">
@@ -99,7 +99,7 @@
   </a>
     <div class="box border">
       <h1 class="head">Hinduism</h1>
-      <a href="hinduism.html">
+      <a href="Hinduism.html">
       <div class="box-content">
         <div>
           <img src="HinduLogo.jpg" class="box-img-cover">
@@ -111,8 +111,8 @@
   </div>
       <div class="row-1">
       <div class="box border">
-        <h1 class="head">Indian Currency</h1>
-        <a href="currency.html">
+        <h1 class="head">IndianCurrency</h1>
+        <a href="IndianCurrency.html">
         <div class="box-content">
           <div>
             <img src="currencylogo.jpeg" class="box-img-cover">
@@ -122,8 +122,8 @@
       </div>
     </a>
       <div class="box border">
-        <h1 class="head">Indian Culture</h1>
-        <a href="culture.html">
+        <h1 class="head">IndianCulture</h1>
+        <a href="IndianCulture.html">
         <div class="box-content">
           <div>
             <img src="indianculture.png" class="box-img-cover">
@@ -133,8 +133,8 @@
       </div>
     </a>
       <div class="box border">
-        <h1 class="head">Indan Food</h1>
-        <a href="food.html">
+        <h1 class="head">IndanFood</h1>
+        <a href="IndianFood.html">
         <div class="box-content">
           <div>
             <img src="IndianFoodLogo.jpg" class="box-img-cover">
@@ -144,8 +144,8 @@
       </div>
       </a>
       <div class="box border">
-        <h1 class="head">Festivals Of India</h1>
-        <a href="festival.html">
+        <h1 class="head">FestivalsOfIndia</h1>
+        <a href="FestivalsOfIndia.html">
         <div class="box-content">
           <div>
             <img src="https://kinderspecial.com/blogs/wp-content/uploads/2021/09/festivals-of-india-blog-cover.jpg" class="box-img-cover">
@@ -206,5 +206,14 @@
      </div>
     </div> 
   </div>
+  <script>
+    const icon=document.querySelector(".search-icon")
+   const input=document.querySelector(".search-select")
+    icon.addEventListener('click',function(){
+      console.log(input.value)
+      let intname=input.value
+      window.location.href=`${intname}.html`
+    });
+    </script>
   </body>
 </html>
