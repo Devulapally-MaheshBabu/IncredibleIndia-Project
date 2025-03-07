@@ -26,7 +26,6 @@
     background-repeat: repeat-x;
     -webkit-background-clip: text;
     animation: freedom 15s linear infinite;
-    
     font-weight: bold;
     font-family: poppins;
     text-transform: uppercase;
@@ -55,8 +54,10 @@
 .imge{
     background-image: url("https://www.clearias.com/up/Indian-Freedom-Struggle-ClearIAS.png");
     height: 500px;
+    
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    background-repeat: repeat;
 }
 .head{
     padding-top: 3px;
